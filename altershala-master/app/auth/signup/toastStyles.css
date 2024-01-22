@@ -1,0 +1,18 @@
+/* toastStyles.css */
+/* Customize the appearance of the toasts here */
+
+/* Example style for success toasts */
+.Toastify__toast--success {
+    background-color: #43dd489a;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  /* Example style for error toasts */
+  .Toastify__toast--error {
+    background-color:#f840404d;
+    color: black;
+    border-radius: 10px;
+   
+  }
+  

@@ -1,0 +1,53 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 0.5pt solid #1e1e1e50;
+}
+.containers {
+  max-width: 1250px;
+
+  width: 100%;
+}
+.list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-inline: 20px;
+}
+
+.nav-list {
+  gap: 20px;
+}
+
+.btn-start:hover {
+  background-color: #1e1e1edf;
+}
+
+@media (max-width: 1050px) {
+  .list-item {
+    display: none;
+  }
+}
+
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: none;
+}
